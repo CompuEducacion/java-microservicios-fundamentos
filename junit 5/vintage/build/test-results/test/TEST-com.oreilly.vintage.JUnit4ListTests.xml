@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.oreilly.vintage.JUnit4ListTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-15T03:03:31" hostname="EMAYA-Mbp" time="0.008">
+  <properties/>
+  <testcase name="accessBeyondEndThrowsException" classname="com.oreilly.vintage.JUnit4ListTests" time="0.005"/>
+  <testcase name="size" classname="com.oreilly.vintage.JUnit4ListTests" time="0.001"/>
+  <testcase name="addElementsToList" classname="com.oreilly.vintage.JUnit4ListTests" time="0.001"/>
+  <system-out><![CDATA[BeforeClass: [this, is, a, list, of, strings]
+Before: []
+Testing out of bounds exception
+After: [3, 1, 4, 1, 5]
+Before: []
+Testing size
+After: [3, 1, 4, 1, 5]
+Before: []
+After: [3, 1, 4, 1, 5, 9, 2, 6, 5]
+AfterClass: [this, is, a, list, of, strings]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

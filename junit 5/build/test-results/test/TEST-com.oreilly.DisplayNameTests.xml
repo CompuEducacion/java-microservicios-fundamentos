@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.oreilly.DisplayNameTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-16T15:14:05" hostname="EMAYA-Mbp" time="0.05">
+  <properties/>
+  <testcase name="testWithDisplayNameContainingSpecialCharacters()" classname="com.oreilly.DisplayNameTests" time="0.035"/>
+  <testcase name="testWithDisplayNameContainingSpaces()" classname="com.oreilly.DisplayNameTests" time="0.003"/>
+  <testcase name="testWithDisplayNameContainingEmoji()" classname="com.oreilly.DisplayNameTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
