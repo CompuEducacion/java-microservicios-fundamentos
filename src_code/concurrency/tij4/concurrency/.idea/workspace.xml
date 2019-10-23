@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7ed6af-6c2e-4899-9375-e82e2b62cf4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/concurrency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/PracticeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/PracticeThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +33,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,16 +53,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestEncuentaMax">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CallableDemo" />
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountDownLatchDemo" />
       <module name="concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioHilo1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.EjercicioHilo1Test" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Fibonacci" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mkyong.concurrency.forkjoin.Main" />
+    <configuration name="HorseRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HorseRace" />
+      <module name="concurrency" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelExample" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mkyong.concurrency.forkjoin.*" />
+          <option name="PATTERN" value="parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumeroMasGrandeST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.NumeroMasGrandeST" />
+    <configuration name="ParallelExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelExample2" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,17 +122,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestEncuentaMax" />
-      <item itemvalue="Application.CallableDemo" />
-      <item itemvalue="Application.EjercicioHilo1Test" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.NumeroMasGrandeST" />
+      <item itemvalue="Application.CountDownLatchDemo" />
+      <item itemvalue="Application.HorseRace" />
+      <item itemvalue="Application.ParallelExample" />
+      <item itemvalue="Application.ParallelExample2" />
+      <item itemvalue="Application.Fibonacci" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumeroMasGrandeST" />
-        <item itemvalue="Application.EjercicioHilo1Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.ParallelExample2" />
+        <item itemvalue="Application.ParallelExample" />
+        <item itemvalue="Application.HorseRace" />
+        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1571242000273</updated>
       <workItem from="1571242001875" duration="5373000" />
-      <workItem from="1571776892527" duration="4773000" />
+      <workItem from="1571776892527" duration="5004000" />
+      <workItem from="1571797668083" duration="5367000" />
     </task>
     <servers />
   </component>
@@ -156,7 +169,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
