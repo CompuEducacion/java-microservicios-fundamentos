@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7ed6af-6c2e-4899-9375-e82e2b62cf4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountDownLatchDemo" />
+  <component name="RunManager" selected="Application.EchoServerExam">
+    <configuration name="EchoServerExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EchoServerExam" />
       <module name="concurrency" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,19 +121,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestEncuentaMax" />
-      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.HorseRace" />
       <item itemvalue="Application.ParallelExample" />
       <item itemvalue="Application.ParallelExample2" />
       <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.EchoServerExam" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoServerExam" />
+        <item itemvalue="Application.ParallelExample" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.ParallelExample2" />
-        <item itemvalue="Application.ParallelExample" />
         <item itemvalue="Application.HorseRace" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,7 @@
       <updated>1571242000273</updated>
       <workItem from="1571242001875" duration="5373000" />
       <workItem from="1571776892527" duration="5004000" />
-      <workItem from="1571797668083" duration="5367000" />
+      <workItem from="1571797668083" duration="7447000" />
     </task>
     <servers />
   </component>
