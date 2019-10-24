@@ -36,6 +36,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fork_join" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -52,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleThreadClientMain">
+  <component name="RunManager" selected="Application.TareaOrdenaArreglo">
     <configuration name="EchoServerExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EchoServerExam" />
       <module name="concurrency" />
@@ -80,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parallel.ParallelExample" />
+    <configuration name="SingleThreadClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.SingleThreadClientMain" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parallel.*" />
+          <option name="PATTERN" value="es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="es.SingleThreadClientMain" />
+    <configuration name="TareaOrdenaArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fork_join.TareaOrdenaArreglo" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="es.*" />
+          <option name="PATTERN" value="fork_join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,18 +125,18 @@
     <list>
       <item itemvalue="Application.TestEncuentaMax" />
       <item itemvalue="Application.HorseRace" />
-      <item itemvalue="Application.ParallelExample" />
       <item itemvalue="Application.EchoServerExam" />
       <item itemvalue="Application.NetworkServerMain" />
       <item itemvalue="Application.SingleThreadClientMain" />
+      <item itemvalue="Application.TareaOrdenaArreglo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TareaOrdenaArreglo" />
         <item itemvalue="Application.SingleThreadClientMain" />
         <item itemvalue="Application.NetworkServerMain" />
         <item itemvalue="Application.HorseRace" />
         <item itemvalue="Application.EchoServerExam" />
-        <item itemvalue="Application.ParallelExample" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +160,8 @@
       <workItem from="1571242001875" duration="5373000" />
       <workItem from="1571776892527" duration="5004000" />
       <workItem from="1571797668083" duration="8585000" />
+      <workItem from="1571846602301" duration="1271000" />
+      <workItem from="1571883450762" duration="100000" />
     </task>
     <servers />
   </component>
