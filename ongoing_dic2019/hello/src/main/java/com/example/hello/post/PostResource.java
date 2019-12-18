@@ -48,8 +48,18 @@ public class PostResource {
                                          @RequestBody Post post){
 
         Post savedPost = service.save(post);
+
         User user = userService.findOne(id);
+        savedPost.setUser(user);
+
+        if(user == null)
+            System.out.println("@#@# User NOT Found: ");
+        else
+            System.out.println("@#@# User Found: " + user);
+
+
         user.addPost(savedPost);
+        //System.out.println("@#@# User Found: " + user);
 
         URI location = ServletUriComponentsBuilder
                         .fromCurrentRequest()

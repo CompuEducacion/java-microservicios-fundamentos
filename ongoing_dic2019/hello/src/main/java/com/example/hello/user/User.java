@@ -61,9 +61,11 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", birthDate=" + birthDate +
+                ", posts=" + posts.size() +
+                //", posts=" + posts +
                 '}';
     }
 }

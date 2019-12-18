@@ -27,11 +27,16 @@ public class UserDaoService {
     }
 
     public User findOne(int id){
+        System.out.println("#@# findOne invoked!");
         for(User user :  users){
+            Integer userId = user.getId();
+            System.out.println("userId = " + userId);
             if(user.getId() == id){
+                System.out.println("match!");
                 return user;
             }
         }
+        System.out.println("@#@# returning null!");
         return null;
     }
 
