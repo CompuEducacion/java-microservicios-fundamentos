@@ -3,10 +3,18 @@ package com.example.hello.post;
 import com.example.hello.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-public class Post {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
+@Entity
+public class Post {
+    @Id
+    @GeneratedValue
     private Integer id;
     private String description;
+    @ManyToOne
     @JsonIgnore
     private User user;
 
