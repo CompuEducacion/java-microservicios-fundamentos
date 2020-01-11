@@ -1,5 +1,0 @@
-include 'spring'
-include 'vintage'
-
-rootProject.name = 'junit5_workshop'
-
